@@ -1,5 +1,8 @@
 <?php
 include 'functions/teacher_functions.php';
+
+
+
 if(empty($_SESSION['user'])){
     header('location:login.php');
 }else{
