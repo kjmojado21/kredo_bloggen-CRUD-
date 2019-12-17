@@ -1,6 +1,6 @@
 <?php
 include 'functions/teacher_functions.php';
-if(!empty($_SESSION['user_id'])){
+if(!empty($_SESSION['user'])){
   header('location: index.php');
 }
 
@@ -47,7 +47,7 @@ if(!empty($_SESSION['user_id'])){
 
     if (isset($_POST['login'])) {
       $uname = $_POST['username'];
-      $password = md5($_POST['password']);
+      $password = $_POST['password'];
 
       $id = login($uname, $password);
       if ($id) {
