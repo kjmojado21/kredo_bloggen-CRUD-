@@ -26,7 +26,7 @@ $user = display_one_teacher($current_user);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-        .col-3 {}
+    
     </style>
     <script src="https://kit.fontawesome.com/eb83b1af77.js" crossorigin="anonymous"></script>
 
